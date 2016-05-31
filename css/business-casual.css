@@ -112,6 +112,7 @@ footer p {
     padding: 50px 0;
 }
 
+@media screen and (min-width:768px) {
 
 
     .top-divider {
@@ -122,6 +123,7 @@ footer p {
         float: left;
         margin-right: 25px;
     }
+
 
     .navbar {
         border-radius: 0;
