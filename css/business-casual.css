@@ -80,8 +80,8 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: #CCFFFF;
+    background: rgba(150, 150, 250, 0.25); <!--เปลี่ยนสีพื้นหลัง-->
 }
 
 .intro-text {
@@ -104,12 +104,12 @@ hr {
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(150, 150, 100, 0.25);
 }
 
-footer p {
-    margin: 0;
-    padding: 50px 0;
+footer {
+    margin: 50px;
+    padding: 10px;
 }
 
 @media screen and (min-width:768px) {
@@ -127,6 +127,7 @@ footer p {
 
     .navbar {
         border-radius: 0;
+
     }
 
     .navbar-header {
@@ -140,7 +141,6 @@ footer p {
     .navbar-default {
         border: none;
         background: #CCFFFF;
-        ;
     }
 
     .nav>li>a {
