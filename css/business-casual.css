@@ -78,8 +78,8 @@ hr {
 }
 
 .box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
     background: #CCFFFF;
     background: rgba(150, 150, 250, 0.25); <!--เปลี่ยนสีพื้นหลัง-->
 }
@@ -94,7 +94,7 @@ hr {
 .img-border {
     float: none;
     margin: 0 auto 0;
-    border: #999999 solid 1px;
+    border: #999999 solid 0px;
 }
 
 .img-left {
@@ -112,7 +112,7 @@ footer {
     padding: 10px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:500px) {
 
 
     .top-divider {
@@ -160,7 +160,7 @@ footer {
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:500px) {
     .box:after {
         content: '';
         display: table;
